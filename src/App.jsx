@@ -11,9 +11,9 @@ const App = () => {
 
   return (
     <div>
-      <Car model={carinfo.model} />
-      <Events/>
-      <Phone/>
+      {/* <Car model={carinfo.model} /> */}
+      {/* <Events/> */}
+      {/* <Phone/> */}
       <Color/>
     </div>
   ) 

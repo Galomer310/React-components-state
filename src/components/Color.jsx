@@ -6,6 +6,7 @@ const Color = () => {
   // useEffect hook to alert when the component is rendered
   useEffect(() => {
     alert("useEffect reached");
+    setColor("yellow");
   }, []); // The empty dependency array ensures this runs only once after the first render
 
   // Function to change the favorite color to blue
